@@ -18,5 +18,16 @@ class Solution(object):
                 ans.append(False)
         return ans
 
+# Single Line Code Solution
 
+"""class Solution(object):
+    def kidsWithCandies(self, candies, extraCandies):
+        
+        :type candies: List[int]
+        :type extraCandies: int
+        :rtype: List[bool]
+        
+
+        return [(i+extraCandies)>=max(candies) for i in candies]"""
+        
         
