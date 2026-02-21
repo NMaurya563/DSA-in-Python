@@ -1,0 +1,17 @@
+# 1480. Running Sum of 1d Array 
+
+class Solution(object):
+    def runningSum(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        n=len(nums)
+
+        ans=[]
+        ans.append(nums[0])
+
+        for i in range(1,n):
+            x=ans[i-1]+nums[i]
+            ans.append(x)
+        return ans        
