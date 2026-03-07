@@ -8,5 +8,4 @@ class Solution(object):
         :rtype: int
         """
         nums.sort()
-
-    return sum(nums[::2])
+        return sum(nums[::2])
